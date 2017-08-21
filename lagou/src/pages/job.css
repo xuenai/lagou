@@ -1,0 +1,22 @@
+.job{width: 100%;
+	height: 100%;
+	padding-bottom: 0.46rem;
+	box-sizing:border-box;
+	overflow: auto;}
+.job .more{width: 100%;
+	height: 0.49rem;
+	border-top: 1px solid #e8e8e8;
+	text-align: center;
+	line-height: 0.49rem;
+	font-size: 0.15rem;
+	color: #333;}
+.job .jobfooter{width: 100%;
+	padding: 0.33rem 0 0.5rem;
+	text-align: center;
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #523f33;}
+.job .jobfooter p:last-child .mobile{color: #523f33;}
+.job .jobfooter p:last-child{margin-top: 0.11rem;}
+.job .jobfooter p:last-child a{color: #523f33;
+	text-decoration: none;}

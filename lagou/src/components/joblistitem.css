@@ -1,0 +1,25 @@
+.joblistitem{width: 100%;
+	height: 0.9rem;
+	border-top: 1px solid #e8e8e8;
+	padding: 14px;
+	box-sizing:border-box;}
+.joblistitem img{float: left;
+	width: 0.6rem;
+	height: 0.62rem;}
+.joblistitem .des{width: 2.77rem;}
+.joblistitem .des h3{height: 0.24rem;
+	line-height: 0.24rem;
+	font-size: 0.16rem;
+	font-weight: bold;}
+.joblistitem .des .posi{height: 0.22rem;
+	line-height: 0.22rem;
+	font-size: 0.14rem;}
+.joblistitem .des .posi span:last-child{color: #00b398;}
+.joblistitem .des .time{color: #888;
+	font-size: 0.12rem;
+	line-height: 0.24rem;}
+.joblistitem .des .posi span:first-child{color: #6c3339;}
+
+
+
+

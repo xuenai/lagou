@@ -1,0 +1,55 @@
+.mysearch{width: 100%;
+	padding-bottom: 0.46rem;}
+.mysearch .sousuo{height: 0.45rem;
+	border-bottom: 1px solid #e8e8e8;}
+.mysearch .sousuo div{height: 0.45rem;}
+.mysearch .sousuo a div{width: 0.88rem;
+	border-right: 1px solid #e8e8e8;
+	text-align: center;
+	line-height: 0.45rem;
+	font-size: 0.15rem;
+}
+.mysearch .sousuo a{float: left;
+	color: #666;}
+.mysearch .sousuo a div{float: left;}
+.mysearch .sousuo a div span{margin-left: 0.03rem;
+	background: url(../img/mysearch.jpg) no-repeat left -0.32rem;
+	background-size: 0.16rem 0.5rem;
+	padding: 0.05rem;}
+.mysearch .sousuo>div input{width: 2.4rem;
+	height: 0.45rem;
+	border: none;
+	text-indent: 0.14rem;
+	font-size: 0.16rem;
+	color: #757575;}
+.mysearch .sousuo>div{position: relative;
+	margin-left: 0.88rem;}
+.mysearch .sousuo>div span{position: absolute;
+	right: 0.09rem;
+	width: 0.4rem;
+	height: 0.45rem;
+	background: url(../img/mysearch.jpg) no-repeat 0.12rem 0.14rem;
+	background-size: 0.16rem 0.5rem;
+	top: 0rem;
+	overflow: hidden;}
+.mysearch .searchHistory{display: none;}
+.mysearch .searchHistory li{height: 0.45rem;
+	line-height: 0.45rem;
+	padding-left: 0.23rem;
+	border-bottom: 1px solid #e8e8e8;
+	font-size: 0.14rem;
+	color: #666;}
+.mysearch .searchHistory li span{float: right;
+	width: 0.45rem;
+	height: 0.45rem;
+	text-align: center;
+	line-height: 0.45rem;
+	color: #d1d1d1;
+	font-size: 0.2rem;}
+.mysearch .result>p{text-align: center;
+	background-color: #e7f7f3;
+	font-size: 0.14rem;
+	color: #5d897e;
+	height: 0.35rem;
+	line-height: 0.35rem;
+	margin:0.16rem 0 0.14rem;}

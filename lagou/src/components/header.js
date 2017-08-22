@@ -10,7 +10,7 @@ class Header extends Component {
 		return (
 			<header>拉勾网</header>
 		)
-	}else{
+	}else if(this.props.mytitle == 'jobdetails'){
 	    return (
 	    	<header>
 	    		职位详情
@@ -18,6 +18,13 @@ class Header extends Component {
 	    		<Link to='/'><div className='r'></div></Link>
 	    	</header>
 	    )
+	}else{
+		return(
+			<header>
+	    		拉勾网
+	    		<Link to='/'><div className='l'></div></Link>
+	    	</header>
+		)
 	};
   }
 }

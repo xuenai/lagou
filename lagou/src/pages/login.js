@@ -7,19 +7,28 @@ class Login extends Component {
   constructor(){
   	super();
   	this.state={
-  		
+  	   showpass:false	
   	};
+    this.showpwd = this.showpwd.bind(this);
   }
+
+  showpwd(e){
+    this.setState({
+      showpass:!this.state.showpass
+    })
+  }
+
   render() {
+    var pwd = this.state.showpass ? <input type='text' placeholder='密码' /> : <input type='password' placeholder='密码' />;
     return (
       <div className="login">
         <form>
             <input type='text' placeholder='已验证手机/邮箱'/>
-            <div><input type='password' placeholder='密码' /><span></span></div>
-            <button>登录</button>
+            <div>{pwd} <span className={this.state.showpass && 'showpwd'} onClick={this.showpwd}></span></div>
+            <button className='loginbtn'>登录</button>
         </form>
         <p>还没得账号？</p>
-        <button>注册</button>
+        <Link to='/register'><button className='registerbtn'>注册</button></Link>
       </div>
     );
   }

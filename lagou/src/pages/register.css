@@ -1,0 +1,78 @@
+.register{width: 100%;
+	height: 100%;
+    background: -webkit-linear-gradient(left top, #00887a , #029254); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right, #00887a, #029254); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right, #00887a, #029254); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom right, #00887a , #029254;); /* 标准的语法 */
+	box-sizing:border-box;
+	padding: 0.2rem 0.19rem 0;}
+.register form input{width: 100%;
+	height: 0.59rem;
+	border: none;
+	font-size: 0.14rem;
+	text-indent: 0.18rem;
+	color: #818179;
+	border-radius: 0.05rem;}
+.register form div{position: relative;}
+.register form input.tel,.register form input.yzm{margin-bottom: 0.1rem;}
+.register form div span{position: absolute;
+	font-size: 0.11rem;
+	color: red;
+	line-height: 0.59rem;
+	right: 0.18rem;}
+.register form div .yzmvalue,.register form div p{float: left;line-height: 0.46rem;}
+.register form div .yzmvalue{width: 1.13rem;
+	height: 0.46rem;
+	background-color: #fff;
+	margin-right: 0.2rem;
+	text-align: center;}
+.register form div p{font-size: 0.12rem;
+	color: #42e3be;}
+.register form div p a{color: #91fbc9;}
+.register form .mesyzm{margin: 0.2rem 0;}
+.register form .mesyzm .getbtn{width: 0.5rem;
+	height: 0.24rem;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #ccccd2;
+	line-height: 0.24rem;
+	text-align: center;
+	position: absolute;
+	top: 0.17rem;
+	right: 0.18rem;}
+.register form .mesyzm span.tip{right: 0.8rem;}
+
+.register form div.password span{position: absolute;
+	width: 0.53rem;
+	height: 0.58rem;
+	background: url(../img/yan.jpg) no-repeat center center;
+	background-size: 0.21rem 0.13rem;
+	right: 0;
+	top: 0;}
+.register form div.password span.showpwd{background-image: url(../img/yan2.jpg);}
+.register form div.password b{font-weight: normal;
+	position: absolute;
+	line-height: 0.59rem;
+	right: 0.45rem;
+	color: red;
+	font-size: 0.12rem;
+	top: 0;}
+.register .registerbtn,.register .loginbtn{width: 100%;
+	height: 0.6rem;
+	background-color: #0ac599;
+	font-size: 0.19rem;
+	color: #fff;
+	margin-top: 0.3rem;
+	border: none;
+	border-radius: 0.05rem;}
+.register .loginbtn{border: 1px solid #45e3be;
+	color: #29e3be;
+	background: none;
+	margin: 0;}
+.register form>p{line-height: 0.34rem;
+	margin-top: 0.1rem;
+	color: #2fe3ad;
+	font-size: 0.12rem;}
+.register form .agree{margin: 0;
+	line-height: 0.3rem;}
+.register form .agree a{color: #9bffd3;}

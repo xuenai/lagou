@@ -24,3 +24,23 @@
 	background-size: 0.21rem 0.13rem;
 	right: 0;
 	top: 0;}
+.login form div span.showpwd{background-image: url(../img/yan2.jpg);}
+.login form button{width: 100%;
+	height: 0.6rem;
+	border-radius: 0.05rem;
+	background-color: #0ac599;
+	font-size: 0.2rem;
+	color: #fff;
+	margin-top: 0.2rem;
+	border: none;}
+.login p{line-height: 0.34rem;
+	margin-top: 0.1rem;
+	color: #2fe3ad;
+	font-size: 0.12rem;}
+.login .registerbtn{width: 100%;
+	height: 0.57rem;
+	border: 1px solid #45e3be;
+	font-size: 0.18rem;
+	color: #45e0b0;
+	background: none;
+	border-radius: 0.05rem;}
